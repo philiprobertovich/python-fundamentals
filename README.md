@@ -50,8 +50,3 @@ OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
 WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 Copyright (c) 2022 Philip Kendall
-
-git branch -m master main
-git fetch origin
-git branch -u origin/main main
-git remote set-head origin -a
