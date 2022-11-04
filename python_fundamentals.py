@@ -20,3 +20,19 @@ def dict_sayer(test_dict):
       print(f'Your key is: {keys}, and your value is: {values}.')
     return True
 
+def greatest(test_dict):
+  for keys, values in test_dict.items():
+    if value == max(test_dict.values()):
+      return (keys, values)
+
+def zipper(list_1, list_2):
+  dict_a = {}  
+  # if len(list_1) == len(list_2):
+  for keys, values in dict_a.items():
+    dict_a[list_1[keys]] = list_2[values]
+    print(dict_a)
+  print(dict_a)
+  return dict_a
+
+    
+
