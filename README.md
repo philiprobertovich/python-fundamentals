@@ -13,18 +13,16 @@
 
 * list_sayer: This functions takes a list as an arguement. It will then break down that list based upon its element and its according index position by outputing a string that will state each element in the list as well as it's index poistion. It will then return true. If the list is empty, the function will return false and print "Your list is empty". 
 * dict_sayer: This function takes a dictionary as an arguement. It will then break down the list based upon its keys and values by outputting a string that states each according key and its value. This will also return true. If the dictionary is empty, it will output "Your dictionary is empty" and return false.
-* greatest: This function takes a dictionary as an arguement. It will then find and output biggest integer value within the dictionary.
-* zipper: This function takes two lists as arguements. If the lists contain the same amount of elements, then it take the elements from both lists and match then up accordingly based upon their respective index positions. It will then take the matched list elements and put them into a dictionary where each matched pair now share a 'key:value' relationship. The function will then return the dictionary. If the lists are different lengths, then the function will return a tuple of each list and how many elements are contained in each.
+* greatest: This function takes a dictionary as an arguement. It will then find and output the biggest integer value within the dictionary.
+* zipper: This function takes two lists as arguements. If the lists contain the same amount of elements, then it will take the elements from both lists and match then up accordingly based upon their respective index positions. It will then take the matched list elements and put them into a dictionary where each matched pair now share a 'key:value' relationship. The function will then return the dictionary. If the lists are different lengths, then the function will return a tuple of each list and how many elements are contained in each.
 
 ## Setup/Installation Requirements
 
-* _This is a great place_
-* _to list setup instructions_
-* _in a simple_
-* _easy-to-understand_
-* _format_
-
-_{Leave nothing to chance! You want it to be easy for potential users, employers and collaborators to run your app. Do I need to run a server? How should I set up my databases? Is there other code this application depends on? We recommend deleting the project from your desktop, re-cloning the project from GitHub, and writing down all the steps necessary to get the project working again.}_
+* Fork over the the repository to your own Github account.
+* Clone your Github repo down to your local machine and into the directory you would like this project to be stored.
+* Navigate to the python_fundamentals.py file and open it in your text editor.
+* At the same time, in a terminal window, install the requirements.txt file by typing pip install -r requirements.txt on the command line.
+* After that, the application should be able to run.
 
 ## Known Bugs
 
@@ -52,3 +50,8 @@ OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
 WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 Copyright (c) 2022 Philip Kendall
+
+git branch -m master main
+git fetch origin
+git branch -u origin/main main
+git remote set-head origin -a
